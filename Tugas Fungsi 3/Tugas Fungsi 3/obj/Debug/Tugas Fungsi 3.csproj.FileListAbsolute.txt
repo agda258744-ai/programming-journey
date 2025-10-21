@@ -1,0 +1,7 @@
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\bin\Debug\Tugas Fungsi 3.exe.config
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\bin\Debug\Tugas Fungsi 3.exe
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\bin\Debug\Tugas Fungsi 3.pdb
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\obj\Debug\Tugas Fungsi 3.csproj.AssemblyReference.cache
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\obj\Debug\Tugas Fungsi 3.csproj.CoreCompileInputs.cache
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\obj\Debug\Tugas Fungsi 3.exe
+D:\AGDA EKITA RAHMADINA - X PPLG 2\Tugas Fungsi 3\Tugas Fungsi 3\obj\Debug\Tugas Fungsi 3.pdb
