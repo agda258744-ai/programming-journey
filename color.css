@@ -1,0 +1,37 @@
+/* Color for external CSS file */
+.warna1 {
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+.warna2 {
+    background-color: #FFE4C4;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+.warna3 {
+    background-color: rgb(100,0,0.8);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+.warna4 {
+    background-color: rgba(148,120,0);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+.warna5 {
+    background-color: hsl(90,80%,55%);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+.warna6 {
+    background-color: hsla(43,30%,42%);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
