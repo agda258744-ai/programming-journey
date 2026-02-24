@@ -1,0 +1,19 @@
+/* Selector universal*/
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Selector tag */
+p {
+    color: brown;
+}
+/* Selector class */
+.skyblue {
+    background-color: skyblue;
+    padding: 10px;
+}
+/* Selector id */
+#pink {
+    background-color: pink;
+    color: white;
+    padding: 10px;
+}
