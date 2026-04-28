@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        div.gallery-item{
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 180px;
+        }
+        div.gallery-item:hover{
+            border: 1px solid #777;
+        }
+        div.gallery-item img{
+            width: 100%;
+            height: auto;
+        }
+        div.gallery-item div.desc{
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Gallery</h2>
+
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <a terget="blank" href="pantai.jpg">
+                <img src="pantai.jpg" alt="Beach" width="600" height="400">
+            </a>
+            <div class="desc">Beach</div>
+        </div>
+
+        <div class="gallery-item">
+            <a terget="blank" href="hutan.jpg">
+                <img src="hutan.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Forest</div>
+        </div>
+
+        <div class="gallery-item">
+            <a terget="blank" href="danau.jpg">
+                <img src="danau.jpg" alt="lake" width="600" height="400">
+            </a>
+            <div class="desc">Lake</div>
+        </div>
+
+        <div class="gallery-item">
+            <a terget="blank" href="pegunungan.jpg">
+                <img src="pegunungan.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Mountains</div>
+        </div>
+    </div>
+</body>
+</html>
