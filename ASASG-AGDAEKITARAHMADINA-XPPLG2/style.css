@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 40px;
+}
+
+.judul-utama {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.kutipan {
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+}
+
+hr {
+  border-top: 1px solid gray;
+  margin: 30px 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.baris-puisi {
+  display: flex;           
+  align-items: stretch;   
+  margin-bottom: 15px;
+}
+
+.kotak-judul {
+  display: flex;                  
+  flex-direction: column;    
+  justify-content: center;   
+  align-items: flex-start;  
+  padding: 15px 20px;             
+  width: 250px;             
+  flex-shrink: 0;           
+  background-color: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.1);  
+  border-radius: 8px;             
+  cursor: pointer;                
+  transition: all 0.3s;     
+}
+
+.kotak-judul:hover {
+  background-color: rgba(192, 132, 252, 0.1); 
+  border-color: rgba(192, 132, 252, 0.3);      
+}
+
+input[type="checkbox"]:checked + .kotak-judul {
+  background-color: rgba(192, 132, 252, 0.1); 
+  border-color: rgba(192, 132, 252, 0.3);
+  border-top-right-radius: 0;   
+  border-bottom-right-radius: 0;
+}
+
+.judul-puisi {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease; 
+  transform-origin: left center; 
+}
+
+.kotak-judul:hover .judul-puisi {
+  transform: scale(1.15); 
+  color: #c084fc;         
+}
+
+.tahun-puisi {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;       
+}
+
+.isi-puisi {
+  max-width: 0;           
+  opacity: 0;               
+  overflow: hidden;        
+  background-color: rgba(255, 255, 255, 0.03); 
+  border: 1px solid rgba(192, 132, 252, 0.3);
+  border-left: none;      
+  border-radius: 0 8px 8px 0;
+  transition: max-width 0.5s ease-in-out,opacity 0.4s ease-in-out,padding 0.5s ease-in-out;
+  padding: 0;
+  white-space: nowrap;
+}
+input[type="checkbox"]:checked ~ .isi-puisi {
+  max-width: 800px;      
+  opacity: 1;               
+  flex-grow: 1;        
+  padding: 15px 20px;    
+  white-space: normal;  
+}
+
+.isi-puisi p {
+  color: lightgray;
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;      
+}
+
+.isi-puisi audio {
+  width: 100%;             
+  min-width: 200px;      
+}
+
+@media (max-width: 600px) {
+  .baris-puisi {
+    flex-direction: column;
+  }
+  .kotak-judul {
+    width: 100%;           
+    border-radius: 8px;   
+  }
+  input[type="checkbox"]:checked + .kotak-judul {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 8px; 
+  }
+  .isi-puisi {
+    border-left: 1px solid rgba(192, 132, 252, 0.3);
+    border-radius: 0 0 8px 8px; 
+    white-space: normal;   
+  }
+  input[type="checkbox"]:checked ~ .isi-puisi {
+    max-width: 100%;       
+  }
+}
